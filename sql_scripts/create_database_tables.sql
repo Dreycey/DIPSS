@@ -79,19 +79,4 @@ CREATE TABLE HASPROTEINS (
 	--FOREIGN KEY(PDB_ID) REFERENCES CRYSTALSTRUCTURE(PDB_ID),
 	PRIMARY KEY (PDB_ID, UNIPROT_ID));
 
-COPY crystalstructuresequence FROM '/Users/da39/Desktop/CLASS_WORK/building_a_database/curated_csvs/crystalstructuresequence_COMP533.csv' WITH (FORMAT csv);
-COPY crystalstructure FROM '/Users/da39/Desktop/CLASS_WORK/building_a_database/curated_csvs/structure.csv' WITH (FORMAT csv);
-COPY secondarystructure FROM '/Users/da39/Desktop/CLASS_WORK/building_a_database/curated_csvs/secondarystructure_COMP533.csv' WITH (FORMAT csv);
-COPY uniprot FROM '/Users/da39/Desktop/CLASS_WORK/building_a_database/curated_csvs/uniprot_2.csv' WITH (FORMAT csv);
-COPY hasproteins FROM '/Users/da39/Desktop/CLASS_WORK/building_a_database/curated_csvs/hasproteins_COMP533.csv' WITH (FORMAT csv);
-COPY refseq FROM '/Users/da39/Desktop/CLASS_WORK/building_a_database/curated_csvs/refseqTable.csv' WITH (FORMAT csv);
-COPY goprocesses FROM '/Users/da39/Desktop/CLASS_WORK/building_a_database/curated_csvs/processTable.csv' WITH (FORMAT csv);
-
-COPY gofunctions FROM 
-'/Users/da39/Desktop/CLASS_WORK/building_a_database/curated_csvs/functionTable.csv' 
-WITH (FORMAT csv);
-
-
-
-
 
