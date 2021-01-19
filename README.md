@@ -1,7 +1,14 @@
 # DIPSS
 
 
+![DIPSS LOGO](/figures/dipss_main.png)
+
+
 ## About/ Description
+While there are multiple database systems for proteins, many do not use a simple to use query system, and most do not integrate multiple databases. Furthermore, the available databases online restrict user access, disallowing end users from running queries. To circumvent the need of a more flexible protein-based database, here the Database for Inquiry into Protein Secondary Structure (DIPSS) is provided as a user-friendly solution. The DIPSS database integrates information from UniProt, UniRef, Protein Data Bank (PDB), the Gene Ontology (GO), and also includes two curated datasets from Kaggle. In addition, DIPPS also has SQL based functions giving users the ability to predict the molecular and cellular functions of input proteins, as well predict the potential secondary structure for an input proteins.
+
+
+![DIPSS ERD in Chen Notation](/figures/dipss_ERD.png) 
 
 ## Usage
 
