@@ -12,6 +12,18 @@ While there are multiple database systems for proteins, many do not use a simple
 
 ## Usage
 
+## Starting and Stopping the server
+
+* Starting the server
+```
+pg_ctl -D dipps_db -l logfile start
+```
+
+* Stopping the server
+```
+pg_ctl -D dipps_db -l logfile stop
+```
+
 ### Example Queries
 
 #### Loooking at function
